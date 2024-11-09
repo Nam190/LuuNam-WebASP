@@ -1,0 +1,203 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebTinTuc
+build_property.RootNamespace = WebTinTuc
+build_property.ProjectDir = C:\Users\ASUS\Desktop\WebTinTuc\WebTinTuc\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\ASUS\Desktop\WebTinTuc\WebTinTuc
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/ASUS/Desktop/WebTinTuc/WebTinTuc/Views/Articles/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/WebTinTuc/WebTinTuc/Views/Articles/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/WebTinTuc/WebTinTuc/Views/Articles/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/WebTinTuc/WebTinTuc/Views/Articles/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/WebTinTuc/WebTinTuc/Views/Articles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/WebTinTuc/WebTinTuc/Views/ChiTietDonHangs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpVGlldERvbkhhbmdzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/WebTinTuc/WebTinTuc/Views/ChiTietDonHangs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpVGlldERvbkhhbmdzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/WebTinTuc/WebTinTuc/Views/ChiTietDonHangs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpVGlldERvbkhhbmdzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/WebTinTuc/WebTinTuc/Views/ChiTietDonHangs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpVGlldERvbkhhbmdzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/WebTinTuc/WebTinTuc/Views/ChiTietDonHangs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpVGlldERvbkhhbmdzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/WebTinTuc/WebTinTuc/Views/Detail/ListArticle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXExpc3RBcnRpY2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/WebTinTuc/WebTinTuc/Views/Detail/NewsDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXE5ld3NEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/WebTinTuc/WebTinTuc/Views/DonHangs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9uSGFuZ3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/WebTinTuc/WebTinTuc/Views/DonHangs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9uSGFuZ3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/WebTinTuc/WebTinTuc/Views/DonHangs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9uSGFuZ3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/WebTinTuc/WebTinTuc/Views/DonHangs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9uSGFuZ3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/WebTinTuc/WebTinTuc/Views/DonHangs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9uSGFuZ3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/WebTinTuc/WebTinTuc/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/WebTinTuc/WebTinTuc/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/WebTinTuc/WebTinTuc/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/WebTinTuc/WebTinTuc/Views/KhachHangs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/WebTinTuc/WebTinTuc/Views/KhachHangs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/WebTinTuc/WebTinTuc/Views/KhachHangs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/WebTinTuc/WebTinTuc/Views/KhachHangs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/WebTinTuc/WebTinTuc/Views/KhachHangs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/WebTinTuc/WebTinTuc/Views/Login/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/WebTinTuc/WebTinTuc/Views/Login/LoginAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW5BZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/WebTinTuc/WebTinTuc/Views/SanPhams/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/WebTinTuc/WebTinTuc/Views/SanPhams/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/WebTinTuc/WebTinTuc/Views/SanPhams/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/WebTinTuc/WebTinTuc/Views/SanPhams/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/WebTinTuc/WebTinTuc/Views/SanPhams/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/WebTinTuc/WebTinTuc/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/WebTinTuc/WebTinTuc/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/WebTinTuc/WebTinTuc/Views/Shared/_LayoutDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXREZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/WebTinTuc/WebTinTuc/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/WebTinTuc/WebTinTuc/Views/Users/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/WebTinTuc/WebTinTuc/Views/Users/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/WebTinTuc/WebTinTuc/Views/Users/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/WebTinTuc/WebTinTuc/Views/Users/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/WebTinTuc/WebTinTuc/Views/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/WebTinTuc/WebTinTuc/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/WebTinTuc/WebTinTuc/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/WebTinTuc/WebTinTuc/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-bsvyoxw92b

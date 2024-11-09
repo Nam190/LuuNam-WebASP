@@ -1,0 +1,62 @@
+﻿@{
+    ViewData["Title"] = "KhuyenMai";
+    Layout = "~/Views/Shared/_LayoutDetail.cshtml";
+}
+<header class="bg-success text-white text-center py-5">
+    <h1>Khuyến Mãi Thực Phẩm Sạch</h1>
+    <p>Thực phẩm rau củ và thịt tươi ngon giảm đến 50%</p>
+    <a href="#products" class="btn btn-light mt-3">Khám Phá Ngay</a>
+</header>
+
+<!-- Section: Featured Products -->
+<section id="products" class="container my-5">
+    <h2 class="text-center mb-4">Sản Phẩm Nổi Bật</h2>
+    <div class="row">
+        <!-- Product 1: Rau xanh -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="~/assets/sanpham/tin2.jpg" class="card-img-top tintuc" alt="Rau xanh">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Rau Xanh Tươi Sạch</h5>
+                    <p class="card-text">Giảm 30% - Chỉ còn 20.000đ/kg</p>
+                    <a href="@Url.Action("Index", "Home")" class="btn btn-success">Mua Ngay</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 2: Cà rốt -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="~/assets/sanpham/carot.jpg" class="card-img-top tintuc" alt="Cà rốt">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Cà Rốt Tươi</h5>
+                    <p class="card-text">Giảm 20% - Chỉ còn 15.000đ/kg</p>
+                    <a href="@Url.Action("Index", "Home")" class="btn btn-success">Mua Ngay</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 3: Thịt heo -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="~/assets/sanpham/thitthan.jpg" class="card-img-top tintuc" alt="Thịt heo">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Thịt Heo Tươi</h5>
+                    <p class="card-text">Giảm 25% - Chỉ còn 80.000đ/kg</p>
+                    <a href="@Url.Action("Index", "Home")" class="btn btn-success">Mua Ngay</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- More Information Section -->
+<section class="container my-5">
+    <h2 class="text-center mb-4">Vì Sao Chọn Thực Phẩm Sạch?</h2>
+    <p class="text-center">Chúng tôi cam kết cung cấp thực phẩm tươi ngon, đảm bảo vệ sinh an toàn thực phẩm, giúp bạn và gia đình có bữa ăn đầy dinh dưỡng và an lành.</p>
+    <div class="text-center mt-3">
+        <a href="@Url.Action("Index", "Home")" class="btn btn-primary">Trở về Trang Chủ</a>
+    </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

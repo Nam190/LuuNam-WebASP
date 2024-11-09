@@ -1,0 +1,68 @@
+﻿@model IEnumerable<WebHangHoa.Model.SanPham>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>Index</h1>
+
+<p class="btn-create">
+    <a asp-action="Create" class="btn btn-success">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TenSanPham)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Anh)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MoTa)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Gia)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SoLuongTonKho)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CategoryId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TenSanPham)
+                </td>
+                <td>
+                    <img style="width:50px;height:50px" src="~/assets/sanpham/@Html.DisplayFor(modelItem => item.Anh)">
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MoTa)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Gia)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SoLuongTonKho)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CategoryId)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.ProductId" class="btn btn-warning">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.ProductId" class="btn btn-info">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.ProductId" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

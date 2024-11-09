@@ -1,0 +1,163 @@
+﻿@model  WebHangHoa.Model.SanPham
+@{
+    ViewData["Title"] = "ChiTiet";
+    Layout = "~/Views/Shared/_LayoutDetail.cshtml";
+}
+
+
+
+<section class="breadcrumb-section set-bg" data-setbg="assets/img/breadcrumb.jpg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="breadcrumb__text">
+                    <h2>Vegetable’s Package</h2>
+                    <div class="breadcrumb__option">
+                        <a href="/">Home</a>
+                        <a href="./index.html">Vegetables</a>
+                        <span>Vegetable’s Package</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="product-details spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <div class="product__details__pic">
+                    <div class="product__details__pic__item">
+                        <img class="product__details__pic__item--large"
+                             src="~/assets/sanpham/@Model.Anh" alt="">
+                    </div>
+                    <div class="product__details__pic__slider owl-carousel">
+                        <img data-imgbigurl="img/product/details/product-details-2.jpg"
+                             src="assets/img/product/details/thumb-1.jpg" alt="">
+                        <img data-imgbigurl="img/product/details/product-details-3.jpg"
+                             src="assets/img/product/details/thumb-2.jpg" alt="">
+                        <img data-imgbigurl="img/product/details/product-details-5.jpg"
+                             src="assets/img/product/details/thumb-3.jpg" alt="">
+                        <img data-imgbigurl="img/product/details/product-details-4.jpg"
+                             src="assets/img/product/details/thumb-4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="product__details__text">
+                    <h3>@Model.TenSanPham</h3>
+                    <div class="product__details__rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <span>(18 reviews)</span>
+                    </div>
+                    <div class="product__details__price">@Model.Gia VNĐ</div>
+                  
+                    <div class="product__details__quantity">
+                        <div class="quantity">
+                            <div class="pro-qty">
+                                <input type="text" value="1">
+                            </div>
+                        </div>
+                    </div>
+                    <a href='@Url.Action("ThemVaoGio", "Cart", new { SanPhamID = Model.ProductId })'>
+                    <button class="primary-btn">THÊM GIỎ HÀNG</button>
+                     </a>
+                    <a href="#" class="heart-icon"><span class="icon_heart_alt"></span></a>
+                    <ul>
+                        <li>
+                            <b>Share on</b>
+                            <div class="share">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="#"><i class="fa fa-pinterest"></i></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="product__details__tab">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-toggle="tab" href="#tabs-1" role="tab"
+                               aria-selected="true">Description</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#tabs-2" role="tab"
+                               aria-selected="false">Information</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#tabs-3" role="tab"
+                               aria-selected="false">Reviews <span>(1)</span></a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="tabs-1" role="tabpanel">
+                            <div class="product__details__tab__desc">
+                                <p>
+                                    @Model.MoTa
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="tabs-2" role="tabpanel">
+                            <div class="product__details__tab__desc">
+                                <h6>Products Infomation</h6>
+                                <p>
+                                    @Model.MoTa
+                                </p>
+                           
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="tabs-3" role="tabpanel">
+                            <div class="product__details__tab__desc">
+                                <h6>Products Infomation</h6>
+                                <p>
+                                    @Model.MoTa
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@* <section class="related-product">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title related__product__title">
+                    <h2>Sản Phẩm Cùng Loại</h2>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row featured__filter">
+                <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fresh-meat" *ngFor="let item of listProduct">
+                    <div class="featured__item">
+                        <div class="featured__item__pic set-bg" data-setbg="">
+                            <img src="assets/sanpham/{{item.image}}" alt="" class="img-set">
+                            <ul class="featured__item__pic__hover">
+                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                <li><a [routerLink]="['/detail',item.id]" (click)="remove()"><i class="fa fa-list"></i></a></li>
+                                <li><a><i class="fa fa-shopping-cart" (click)="addCart(item)"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="featured__item__text">
+                            <h6><a href="#">{{item.name}}</a></h6>
+                            <h5>{{item.unit_price | currency:"VND"}}</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> *@

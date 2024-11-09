@@ -1,0 +1,56 @@
+﻿@model IEnumerable<WebHangHoa.Model.ChiTietDonHang>
+
+@{
+    ViewData["Title"] = "Order Details Index";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>Order Details</h1>
+
+<p class="btn-create">
+    <a asp-action="Create" class="btn btn-success">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.SoLuong)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Gia)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Order)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SoLuong)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Gia)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Order.OrderId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Product.TenSanPham) <!-- Assuming 'TenSanPham' is the product name -->
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.OrderDetailId" class="btn btn-warning">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.OrderDetailId" class="btn btn-info">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.OrderDetailId" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
